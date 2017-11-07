@@ -1917,7 +1917,7 @@ fi
 $as_echo "\"using ${R_HOME} for the root of the R install directory\"" >&6; }
 
 if test -z "${R_INCLUDE}"; then
-  # modified location of R.h file
+  # modified location of R.h file for running in AWS
   R_INCLUDE="/usr/share/R/include"
 fi
 { $as_echo "$as_me:$LINENO: result: \"using ${R_INCLUDE} for R header files\"" >&5
